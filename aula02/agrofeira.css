@@ -94,6 +94,7 @@ h2 { color: var(--verde); margin: 8px 0 16px; }
 .cartao h3 a:hover { text-decoration: underline; }
 .etiqueta {
   align-self: flex-start;
+  width: fit-content;
   background: var(--verde-claro);
   color: var(--verde);
   font-size: .75rem;

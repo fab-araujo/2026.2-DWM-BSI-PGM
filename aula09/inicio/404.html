@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block titulo %}Página não encontrada - AgroFeira Paragominas{% endblock %}
+
+{% block conteudo %}
+  <h2>Essa página não existe</h2>
+  <p>O endereço que você abriu não leva a nada na AgroFeira. Confira se
+     digitou certo ou volte para o começo.</p>
+  <p><a href="{% url 'catalogo:home' %}">Voltar ao início</a></p>
+{% endblock %}

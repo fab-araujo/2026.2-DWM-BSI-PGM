@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block titulo %}Sem permissão - AgroFeira Paragominas{% endblock %}
+
+{% block conteudo %}
+  <h2>Você não pode abrir esta página</h2>
+  <p>A sua conta não tem permissão para ver ou alterar isto.
+     Se você é produtor, entre com a conta do seu cadastro.</p>
+  <p><a href="{% url 'catalogo:home' %}">Voltar ao início</a></p>
+{% endblock %}
